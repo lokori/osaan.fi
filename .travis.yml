@@ -19,7 +19,7 @@ script:
 - cd ../app
 - lein test
 - echo 'db.port = 5432' > osaan.properties
-- lein test :integraatio
+- lein test2junit :integraatio
 
 #deploy:
 #- provider: s3
